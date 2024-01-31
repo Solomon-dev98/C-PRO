@@ -8,11 +8,6 @@
 #define MAX_INPUT 1024
 #define MAX_ARG 64
 
-/**
- * main - function that serves as a custom unix-like shell.
- * Return: returns 0 on success.
- */
-
 ssize_t _getline(char **linept, size_t *n, FILE *stream);
 int main(void)
 {
